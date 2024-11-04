@@ -76,4 +76,13 @@
 5. Eliminamos columnas de - **Crm Cd 2** (Crime Code 2), **Crm Cd 3** (Crime Code 3), **Crm Cd 4** (Crime Code 4) por tener entre el 99% y 93% de valores nulos y no ser relevante para nuestro analisis.
 6. Tomamos la decisión de conservar datos nulos sobre campo **VICT SEX**, pues faltan más de 115,000 valores, y **VICT DESCT**, que también faltan una cantidad similar, ya que estos valores corresponden con casos donde la victima no es una persona, por ejemplo, caso de robo de vehiculo, malversación de fondos, etc.
 7. Al analizar los valores nulos vemos que se podrìa inferir el Premis Desc por medio del Premis Cd y quedariamos solamente con 14 valores nulos pero al ver que no es relevante para nuestro analisis, por el momento quedará en nulos.
-8. 
+8. Unificamos datos *Vict Sex** en M, F y X, seguimos conservando datos nulos.
+9. Trabajamos edades en negativo, reemplazando por la mediana en caso de que *Vict Sex** sea F o M. Y en el caso de valores donde *Vict Sex** es X reemplazamos valor negativo por 0, teniendo en cuenta que al sacar la media vamos a excluir el valor 0.
+10. Hemos podido observar que las columnas de Crm Cd y Crm Cd 1 estan duplicadas pero Crm Cd 1 tiene 11 valores nulos, hemos reemplazado esos valores con los de Crm Cd ya que estan completos y eliminado Crm Cd.
+11. Hemos podido observar que los valores de edad 0 coinciden en su mayoria con Crm Cd 1 donde no hay una victima sino que se ve una clara inclinacion a robo de vehiculo, hurtos y malverzacion y aunque vemos abusos infantiles, son minoria por eso decidimos omitir 0 en el recuento de las edades.
+
+## Visualizacion
+
+1. Creamos la primera visualizacion con la libreria plotly, queremos mostrar con un histograma la cantidad de victimas en funcion de su Sexo (M, F, X) y su Raza (O, H, B, A, W, X).
+2. 
+
