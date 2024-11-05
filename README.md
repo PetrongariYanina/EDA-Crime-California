@@ -80,9 +80,21 @@
 9. Trabajamos edades en negativo, reemplazando por la mediana en caso de que *Vict Sex** sea F o M. Y en el caso de valores donde *Vict Sex** es X reemplazamos valor negativo por 0, teniendo en cuenta que al sacar la media vamos a excluir el valor 0.
 10. Hemos podido observar que las columnas de Crm Cd y Crm Cd 1 estan duplicadas pero Crm Cd 1 tiene 11 valores nulos, hemos reemplazado esos valores con los de Crm Cd ya que estan completos y eliminado Crm Cd.
 11. Hemos podido observar que los valores de edad 0 coinciden en su mayoria con Crm Cd 1 donde no hay una victima sino que se ve una clara inclinacion a robo de vehiculo, hurtos y malverzacion y aunque vemos abusos infantiles, son minoria por eso decidimos omitir 0 en el recuento de las edades.
+12. Hemos unido el atributo location y cross street.
 
 ## Visualizacion
 
 1. Creamos la primera visualizacion con la libreria plotly, queremos mostrar con un histograma la cantidad de victimas en funcion de su Sexo (M, F, X) y su Raza (O, H, B, A, W, X).
-2. 
+2. Hicimos un pie chart para saber la distribución de las víctimas en función de su raza y sexo.
+3. Realizamos un gráfico de barras en función del número de víctimas por la raza y la edad.
+4. Mostramos mediante un gráfico de barras el número de víctimas por rango de edad y su sexo.
+5. Gráfico de barras de número de crímenes por área
+6. Pie chart con el porcentaje de crímenes por área
+7. Geo mapa de los distintos distritos policiales con burbujas que indican el número de crímenes
+8. Gráfico de barras con el Top 10 de los crímenes
+9. Gráfico de barras relacionando los 5 distritos con más crímenes con los 10 delitos más repetidos
+10. Gráfico de barras relacionando los 5 distritos con más crímenes con las 10 localizaciones más repetidas para los crímenes.
+11. Creamos Line Chart donde enseñamos la tendencia temporar de ocurrencia de delitos en 2020, 2021, 2022, 2023, 2024.
+12. Bar Chart con Plotly que muestra los delitos en funcion de la hora del dia que son cometidos dividido en periodos de 4 horas.
+13. 
 
