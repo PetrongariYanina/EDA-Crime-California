@@ -96,5 +96,6 @@
 10. Gráfico de barras relacionando los 5 distritos con más crímenes con las 10 localizaciones más repetidas para los crímenes.
 11. Creamos Line Chart donde enseñamos la tendencia temporar de ocurrencia de delitos en 2020, 2021, 2022, 2023, 2024.
 12. Bar Chart con Plotly que muestra los delitos en funcion de la hora del dia que son cometidos dividido en periodos de 4 horas.
-13. 
+13. Gráfico de barras donde clasificamos los top 5 crímenes en función del intervalo de tiempo.
+14. Top 5 de crímenes en el lugar donde ocurrieron los hechos en ese intervalo de tiempo.
 
