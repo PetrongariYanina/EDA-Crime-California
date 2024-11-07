@@ -81,6 +81,7 @@
 10. Hemos podido observar que las columnas de Crm Cd y Crm Cd 1 estan duplicadas pero Crm Cd 1 tiene 11 valores nulos, hemos reemplazado esos valores con los de Crm Cd ya que estan completos y eliminado Crm Cd.
 11. Hemos podido observar que los valores de edad 0 coinciden en su mayoria con Crm Cd 1 donde no hay una victima sino que se ve una clara inclinacion a robo de vehiculo, hurtos y malverzacion y aunque vemos abusos infantiles, son minoria por eso decidimos omitir 0 en el recuento de las edades.
 12. Hemos unido el atributo location y cross street.
+13. Utilizamos la nueva columna Category, que agrupa los tipos de crímenes de CRM Cd Desc, para analizar patrones de criminalidad amplios, destacando tendencias en grupos de delitos.
 
 ## Visualizacion
 
